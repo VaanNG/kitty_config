@@ -24,7 +24,7 @@ bold_italic_font auto
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-font_size 15
+font_size 13
 
 #: Font size (in pts).
 
@@ -718,7 +718,7 @@ cursor_trail 3
 #: because kitty is so fast that partial screen updates will be drawn.
 #: This setting is ignored when the input buffer is almost full.
 
-sync_to_monitor yes
+# sync_to_monitor yes
 
 #: Sync screen updates to the refresh rate of the monitor. This
 #: prevents screen tearing
@@ -1136,7 +1136,7 @@ active_tab_background  #cfee8a
 #: Color scheme {{{
 
 foreground #e2cca9
-background #262B23 
+background #293025 
 #: The foreground and background colors.
 
 background_opacity 1.0
@@ -1163,7 +1163,7 @@ background_opacity 1.0
 #: this option when reloading the config will only work if
 #: dynamic_background_opacity was enabled in the original config.
 
-# background_blur 25
+background_blur 25
 
 #: Set to a positive value to enable background blur (blurring of the
 #: visuals behind a transparent window) on platforms that support it.
